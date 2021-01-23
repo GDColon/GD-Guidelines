@@ -1,0 +1,20 @@
+Song BPM:             100
+Song Length (secs):   300
+Song Offset (ms):     0
+Color Pattern:        G Y Y Y
+
+=================
+
+Change the values below to whatever fits the song you're using
+- BPM can be calculated at sites such as https://www.all8.com/tools/bpm/
+- Song offset is how long before the pattern begins (in case the song starts with silence)
+- Color pattern determines the color of the guidelines (e.g "G Y G" would repeat a pattern of green, yellow, green)
+- For patterns, available line colors are G, Y, O, and X. (green, yellow, orange, none). Using anything else will just skip that line entirely
+
+To use: Make sure node.js is installed then type "node lines.js" in the console or just click on run.bat
+
+Guidelines will be applied to whichever level is at the top of your created list
+I didn't do much testing with this thing so you might want to back up or copy your level before using it!
+
+Created by Colon~
+https://gdcolon.com
