@@ -1,8 +1,12 @@
 const fs = require('fs')
+const os = require('os')
 const zlib = require('zlib')
 
 let colors = {o: 0.8, y: 0.9, g: 1.0}
 let gdLevels = process.env.HOME || process.env.USERPROFILE + "/AppData/Local/GeometryDash/CCLocalLevels.dat"
+if (os.type = 'Linux') {
+  let gdLevels = "~/.local/share/Steam/steamapps/common/Geometry\ Dash/Resources/CCLocalLevels.dat"
+}
 let levelRegex = /(<k>k_0<\/k>.+?<k>k4<\/k><s>)(.+?)<\/s>/
 
 let localLevels = fs.readFileSync(gdLevels, 'utf8')
