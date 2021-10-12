@@ -5,7 +5,7 @@ Color Pattern:        G Y Y Y
 
 =================
 
-Change the values below to whatever fits the song you're using
+Change the values above (Not Below) to whatever fits the song you're using
 - BPM can be calculated at sites such as https://www.all8.com/tools/bpm/
 - Song offset is how long before the pattern begins (in case the song starts with silence)
 - Color pattern determines the color of the guidelines (e.g "G Y G" would repeat a pattern of green, yellow, green)
